@@ -643,7 +643,7 @@
                     const sourceTable = this.chunker.source.querySelector("[data-ref='" + ref + "']");
                     this.repeatColgroup(sourceTable, renderedTable);
                     this.repeatTHead(sourceTable, renderedTable);
-                    renderedTable.setAttribute("repeated-headers", true);
+                    renderedTable.setAttribute("repeated-headers", false);
                 }
             }
         });
